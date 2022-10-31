@@ -712,7 +712,7 @@ function getImports() {
         const ret = wasm.memory;
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper1887 = function(arg0, arg1, arg2) {
+    imports.wbg.__wbindgen_closure_wrapper1885 = function(arg0, arg1, arg2) {
         const ret = makeClosure(arg0, arg1, 803, __wbg_adapter_26);
         return addHeapObject(ret);
     };
@@ -752,7 +752,7 @@ function initSync(module) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('satisfactory-accounting-app-bc688823f491fbab_bg.wasm', import.meta.url);
+        input = new URL('satisfactory-accounting-app-481e4c682ec42bbb_bg.wasm', import.meta.url);
     }
     const imports = getImports();
 
