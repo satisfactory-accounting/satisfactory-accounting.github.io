@@ -11,9 +11,9 @@
     <!-- We have to disable wasm-opt for now because Rust recently started using table.fill and wasm
     opt requires a flag to support that, and trunk gives us no way to pass that flag. -->
     
-<script type="module" nonce="qUOInbTo46HMQ/brQMlUjg==">
-import init, * as bindings from '/satisfactory-accounting-app-e1dcbd0fb8d1fd9c.js';
-const wasm = await init('/satisfactory-accounting-app-e1dcbd0fb8d1fd9c_bg.wasm');
+<script type="module" nonce="0nqQ4z4jx3vZx5lArasWTg==">
+import init, * as bindings from '/satisfactory-accounting-app-dcb507ff8102b8ba.js';
+const wasm = await init('/satisfactory-accounting-app-dcb507ff8102b8ba_bg.wasm');
 
 
 window.wasmBindings = bindings;
@@ -22,14 +22,12 @@ window.wasmBindings = bindings;
 dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
 
 </script>
-    <link rel="stylesheet" href="/main-13fa384a6d23205f.css" integrity="sha384&#x2D;R9JOGnytvyKIAYTASPBanayf2AuNnOBNwMJ8Wr&#x2F;Cp7Cr41I8dQhCUmwv4to&#x2F;qECr"/>
+    <link rel="stylesheet" href="/main-389fee4adce9bf21.css" integrity="sha384&#x2D;qCVsqidk&#x2F;8taGVJRTu94tOhLz5HvY0YVp&#x2F;iOoylwkq30LR&#x2F;mESy&#x2B;uZAgRF&#x2F;NUWY0"/>
     <link rel="stylesheet" href="/fonts-3e35ad46f7a72dd5.css" integrity="sha384&#x2D;Xbm4uFCIJcJMV943qGoxMkEWph7MfGJaH2DwAqweNVqfuJtlqOQM1QDnLrfsKzMJ"/>
 
     
     
-  
-<link rel="modulepreload" href="/satisfactory-accounting-app-e1dcbd0fb8d1fd9c.js" crossorigin=anonymous integrity="sha384-7dzJdwransJU0AijrhJNUdIgwXW/g0ZKmu0g0uuWqG3nIAL++6E5HgRtcrwz12BJ">
-<link rel="preload" href="/satisfactory-accounting-app-e1dcbd0fb8d1fd9c_bg.wasm" crossorigin=anonymous integrity="sha384-RwYBdNYyfJWyt7PmwWnVsWivrh/x+I4zyXmUkxWLiJwarsWa0SZi7gzHANgAyV+o" as="fetch" type="application/wasm"></head>
+  <link rel="modulepreload" href="/satisfactory-accounting-app-dcb507ff8102b8ba.js" crossorigin=anonymous integrity="sha384-YgzSpl5oudLJ2bBt6HqzUjd0HtZGsWFXcpw9QWfbM9HLxBVQSCtt8gOpMgFaKubw"><link rel="preload" href="/satisfactory-accounting-app-dcb507ff8102b8ba_bg.wasm" crossorigin=anonymous integrity="sha384-/FSjDSnF4B20D6GM9/gatJkUVRKW0ZbBMdGCG8xeLXKqfaw3Qp52YkKYY0dH4ZJG" as="fetch" type="application/wasm"></head>
   <body>
     <div id="modal-host"></div>
     <div id="app-host"></div>
